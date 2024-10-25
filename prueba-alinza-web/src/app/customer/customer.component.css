@@ -1,0 +1,124 @@
+.table-container {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-table-wrapper {
+    width: 100%; 
+}
+
+.p-table tr th, .p-table tr td {
+    padding: 10px; 
+    text-align: left; 
+}
+
+.p-table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: center; 
+    padding: 20px; 
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.p-dialog {
+    overflow: visible;
+}
+
+p-calendar {
+    width: 100%;
+}
+
+.p-inputtext {
+    width: 100%;
+}
+
+.ui-calendar {
+    width: 100%;
+}
+
+.ui-datepicker {
+    width: auto;
+    max-width: 100%;
+}
+
+.icon-delete {
+    color: rgb(216, 100, 100); 
+    transition: color 0.3s ease; 
+}
+
+.icon-delete:hover {
+    color: red; 
+}
+
+.icon-update {
+    color: rgb(103, 121, 221);
+    transition: color 0.3s ease; 
+}
+
+.icon-update:hover {
+    color: rgb(88, 85, 228); 
+}
+
+.icon-create {
+    color: rgb(48, 228, 3); 
+    transition: color 0.3s ease; 
+}
+
+.icon-create:hover {
+    color: rgb(90, 228, 85); 
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .p-table tr th, .p-table tr td {
+        padding: 5px; 
+    }
+
+    .button-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-container button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .ui-calendar {
+        width: 100%;
+    }
+
+    .ui-datepicker {
+        width: 100%;
+    }
+}
